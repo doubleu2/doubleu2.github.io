@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<!--
+	hjpithadia
+-->
+<html>
+	<head>
+		<title>Parents | BRIGHTMINDS</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header" class="skel-layers-fixed">
+				<h1><a href="index.html"><img src="./images/logo.png" alt="bright minds logo" style="height:50px"></a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="difference.html">What makes the difference?</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="parents.html">Parent Partnership</a></li>
+						<li><a href="index.html#contact">Contact Us</a></li>
+					</ul>
+				</nav>
+			</header>
+
+
+
+		<!-- Banner -->
+			<section id="bannerabt">
+					<div class="inner">
+						<h2>This is Brightminds</h2>
+						<p>Some text by text <a href="http://google.co.uk">Text</a></p>
+						<ul class="actions">
+							<li><a href="#content" class="button big alt">About Us</a></li>
+							<li><a href="#elements" class="button big alt">With a difference</a></li>
+							<li><a href="#content" class="button big alt">Services</a></li>
+							<li><a href="#elements" class="button big alt">Parent Partnership</a></li>
+					  	<li><a href="#elements" class="button big alt">Contact Us</a></li>
+						</ul>
+					</div>
+			</section>
+
+			<section class="wrapper stylesubmenu">
+				<div class= "inner">
+					<h2><a href ="javascript:void(0)" class="tablinks" onclick="openSub(event, 'Parent')">Parent Partnership</a></h2>
+				</div>
+			</section>
+
+			<!-- One -->
+			<section class="wrapper styletab">
+				<div class="tabnav">
+					<ul class="tab">
+						<li><a href ="javascript:void(0)" class="tablinks" onclick="openSub(event, 'working')">How Does It Work?</a></li>
+						<li><a href ="javascript:void(0)" class="tablinks" onclick="openSub(event, 'reporting')">Reporting your child’s progress</a></li>
+						<li><a href ="javascript:void(0)" class="tablinks" onclick="openSub(event, 'role')">The Role of Parents</a></li>
+					</ul>
+
+
+					<div id ="Parent" class = "tabcontent" style="display:block">
+					  <h3>Parent Partnership</h3>
+					  <p>Useful information for the parents about Bright Minds.</p>
+					</div>
+
+					<div id ="working" class = "tabcontent">
+					  <h3>How Does It Work?</h3>
+					  <p>To begin the process, contact us to book an Initial Assessment.</p>
+					  <p>You will then be welcomed to complete the assessment with your child. A member of Bright Minds will guide you through the assessment and consultation process. During this time, the children will complete the assessment (under timed conditions). Although this will identify where the child is at, ongoing assessments will regularly take place throughout the term. </p>
+					  <p>This assessment is marked and recorded into our database, and used as a benchmark to inform us what learning band your child is working at and where their strengths and areas of development lie. This will then allow us to come up with individual targets for them to work towards in the lessons. The learning bands are determined by how well the children have met the relevant learning strand. The learning bands are categorised into 4 areas; emerging, developing, expected and exceeding.</p>
+					</div>
+
+					<div id ="reporting" class = "tabcontent">
+					  <h3>Reporting your child’s progress</h3>
+					  <p>We constantly strive to exceed the expectations of our parents.  After each session, you will be getting a verbal feedback on the child’s behaviour and learning. Here, at Bright Minds we will be completely honest with you. We will explain what has been taught, how you can support your child’s learning and what provisions we would like from you. We will be able to provide you with a framework indicating what topic areas we will be covering in that subject.</p>
+					</div>
+
+					<div id ="role" class = "tabcontent">
+					  <h3>The Role of Parents</h3>
+					  <p>In order to deliver the best results; Bright Minds recommend that after each session you take time to talk to your child and understand the learning that has taken place. This will help to consolidate their learning and will give you a clear idea of their progression. It will also identify any barriers or gaps that the child is facing, which you can feedback to us. We believe it is important for Bright Minds, parents and children to work towards a common goal together implementing an agreed strategy. Working alongside parents helps us to make sure that all children fulfil their potential.</p>
+					</div>
+
+
+				</div>
+			</section>
+			<!-- One-->
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/brightminds.education" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							</ul>
+					<ul class="copyright">
+						<li>&copy; Bright Minds. All rights reserved.</li>
+						<li>Design: <a href="http://google.co.uk">doubleU</a></li>
+					</ul>
+				</div>
+			</footer>
+
+			<script>
+			function openSub(evt, subName) {
+			    var i, tabcontent, tablinks;
+			    tabcontent = document.getElementsByClassName("tabcontent");
+			    for (i = 0; i < tabcontent.length; i++) {
+			        tabcontent[i].style.display = "none";
+			    }
+			    tablinks = document.getElementsByClassName("tablinks");
+			    for (i = 0; i < tablinks.length; i++) {
+			        tablinks[i].className = tablinks[i].className.replace(" active", "");
+			    }
+			    document.getElementById(subName).style.display = "block";
+			    evt.currentTarget.className += " active";
+			}
+			</script>
+
+
+	</body>
+</html>

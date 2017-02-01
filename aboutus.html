@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<!--
+	hjpithadia
+-->
+<html>
+	<head>
+		<title>About Us | BRIGHTMINDS</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+		<header id="header" class="skel-layers-fixed">
+			<h1><a href="index.html"><img src="./images/logo.png" alt="bright minds logo" style="height:50px"></a></h1>
+			<nav id="nav">
+				<ul>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="difference.html">What makes the difference?</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="parents.html">Parent Partnership</a></li>
+					<li><a href="index.html#contact">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<!-- Banner -->
+			<section id="bannerabt">
+					<div class="inner">
+						<h2>This is Brightminds</h2>
+						<p>Some text by text <a href="http://google.co.uk">Text</a></p>
+						<ul class="actions">
+							<li><a href="#content" class="button big alt">About Us</a></li>
+							<li><a href="#elements" class="button big alt">With a difference</a></li>
+							<li><a href="#content" class="button big alt">Services</a></li>
+							<li><a href="#elements" class="button big alt">Parent Partnership</a></li>
+					  	<li><a href="#elements" class="button big alt">Contact Us</a></li>
+						</ul>
+					</div>
+			</section>
+
+			<section class="wrapper stylesubmenu">
+				<div class= "inner">
+					<h2><a href ="javascript:void(0)" class="tablinks" onclick="openSub(event, 'About')">About Us</a></h2>
+				</div>
+			</section>
+
+			<!-- One -->
+			<section class="wrapper styletab">
+				<div class="tabnav">
+					<ul class="tab">
+						<li><a href ="javascript:void(0)" class="tablinks" onclick="openSub(event, 'tutor')">Why do you need a Tutor</a></li>
+					</ul>
+
+					<div id ="About" class = "tabcontent" style="display:block">
+					  <h3>About Us</h3>
+					  <p>Bright Minds are experienced, qualified teachers who have come together to provide a stimulating and engaging learning environment for children in EYFS, Key Stage 1 and Key Stage 2. As working teachers we have a good secure knowledge of the National Curriculum and the current educational affairs.</p>
+					  <p>The passion and love we have for teaching has motivated us to continue making a difference to the children. Our aim is for children to achieve a deep, clear understanding and reasoning of key concepts by learning the right skills. This will enable them to transfer these skills at school, ensuring they make consistent progress and attain their full potential. </p>
+					  <p><b>The passion and love we have for teaching has motivated us to continue making a difference to the children. Our aim is for children to achieve a deep, clear understanding and reasoning of key concepts by learning the right skills. This will enable them to transfer these skills at school, ensuring they make consistent progress and attain their full potential.</b></p>
+					</div>
+
+					<div id ="tutor" class = "tabcontent">
+					  <h3>Why do you need a tutor?</h3>
+					  <p>Below we list key issues why your child would benefit from tutoring</p>
+					  <ul>
+					    <li>To ensure they fully understand key concepts</li>
+					    <li>To consolidate their learning</li>
+					    <li>To extend their learning</li>
+					    <li>To develop a growth mind-set</li>
+					    <li>To improve their learning capacity</li>
+					  </ul>
+
+					  <p>Every child is different and therefore learns in different ways. We teach your child using focused practices which can be difficult to apply in a large classroom environment, a lot more progress can be achieved in a short time. We consider the below to be an influential factor that play a major influence on a child’s development.</p>
+
+					  <ul>
+					    <li><b>Confidence:</b> Children can have low confidence levels and this can be shown in class when they choose not to participate in activities or volunteer to contribute to class discussions. There is always a fear element of embarrassment which can then have a continued negative impact on their confidence levels.</li>
+					    <li><b>Focus:</b> Children at school can easily be distracted by their peers and then can find it difficult to concentrate in a challenging learning environment. Whilst big groups are good for social development, smaller groups inspire higher engagement levels where children are more focussed on the learning task as they have fewer distractions to manage. </li>
+					    <li><b>Pace:</b> Every child learns at a different pace. At school they learn at one pace which may be too slow or too fast for your child. Bright Minds provide opportunities for personalised learning enabling the children to learn at their own pace and progress in a positive way at the best speed for them.</li>
+					  </ul>
+					</div>
+
+				</div>
+			</section>
+			<!-- One-->
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/brightminds.education" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							</ul>
+					<ul class="copyright">
+						<li>&copy; Bright Minds. All rights reserved.</li>
+						<li>Design: <a href="http://google.co.uk">doubleU</a></li>
+					</ul>
+				</div>
+			</footer>
+
+			<script>
+			function openSub(evt, subName) {
+			    var i, tabcontent, tablinks;
+			    tabcontent = document.getElementsByClassName("tabcontent");
+			    for (i = 0; i < tabcontent.length; i++) {
+			        tabcontent[i].style.display = "none";
+			    }
+			    tablinks = document.getElementsByClassName("tablinks");
+			    for (i = 0; i < tablinks.length; i++) {
+			        tablinks[i].className = tablinks[i].className.replace(" active", "");
+			    }
+			    document.getElementById(subName).style.display = "block";
+			    evt.currentTarget.className += " active";
+			}
+			</script>
+
+
+	</body>
+</html>
